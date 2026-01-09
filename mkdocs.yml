@@ -1,0 +1,35 @@
+site_name: Charlton's Website
+
+nav:
+  - Home: index.md
+  - Snake: snake_reimagined.md
+  - Gallery: gallery.md
+  - About Me: about_me.md
+
+theme:
+  name: material
+
+  palette:
+    - scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - content.fade
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  
+extra_css:
+  - extra.css
